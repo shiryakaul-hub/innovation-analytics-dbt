@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 SELECT
 
     as_of_date,
